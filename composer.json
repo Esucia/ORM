@@ -1,0 +1,19 @@
+{
+    "name": "bit/orm",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Esucia",
+            "email": "tautvydasstonys@gmail.com"
+        }
+    ],
+    "require": {
+        "eftec/bladeone": "^4.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "models\\": "models/",
+            "helper\\": "helper/"
+        }
+    }
+}
